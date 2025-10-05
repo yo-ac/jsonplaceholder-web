@@ -36,3 +36,8 @@ npm run dev
 
 5. Abre en tu navegador:
 http://localhost:3000 o http://127.0.0.1:3000
+
+👨‍💻 Autor
+Andrés Castañeda
+Desarrollador Full-Stack especializado en el stack MERN + Next.js y desarollo mobile con React Native y Expo.
+
