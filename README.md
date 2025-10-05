@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📰 JSONPlaceholder Web
 
-## Getting Started
+Una aplicación web desarrollada con Next.js 14 que consume la API pública de JSONPlaceholder
+para mostrar publicaciones, ver detalles y agregar comentarios de manera dinámica.
 
-First, run the development server:
 
-```bash
+🚀 Tecnologías utilizadas
+
+- Next.js 14 (App Router)
+- React 18
+- TypeScript
+- Tailwind CSS
+- Fetch API
+
+📋 Funcionalidades
+- Listado de usuarios, con nombre, apodo y email.
+- Detalles de usuario con datos de contacto, dirección y más.
+- Listado de publicaciones con título y resumen.
+- Vista detallada de cada post con sus comentarios asociados.
+- Formulario para agregar nuevos comentarios de manera dinámica.
+- Actualización inmediata del estado local tras enviar un nuevo comentario.
+- Diseño moderno y responsive con Tailwind CSS.
+
+⚙️ Instalación y ejecución
+1. Clona el repositorio:
+git clone https://github.com/yo-ac/jsonplaceholder-web.git
+
+2. Entra en la carpeta del proyecto:
+cd jsonplaceholder-web
+
+3. Instala las dependencias:
+npm install
+
+4. Ejecuta el entorno de desarrollo:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Abre en tu navegador:
+http://localhost:3000 o http://127.0.0.1:3000
